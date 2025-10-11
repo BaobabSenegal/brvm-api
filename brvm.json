@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "date_maj": "2025-10-11T16:44:13.480142",
+    "timestamp": 1760201053,
+    "nombre_actions": 2,
+    "source": "BRVM",
+    "statut": "succès"
+  },
+  "data": [
+    {
+      "symbole": "SONATEL",
+      "nom": "Sonatel",
+      "dernier": 15200,
+      "variation": 1.2,
+      "ouverture": 15000,
+      "haut": 15300,
+      "bas": 14950,
+      "volume": 12500,
+      "date_maj": "2025-10-11T16:44:13.479189"
+    },
+    {
+      "symbole": "BOABF",
+      "nom": "Bank Of Africa",
+      "dernier": 4500,
+      "variation": -0.5,
+      "ouverture": 4520,
+      "haut": 4550,
+      "bas": 4480,
+      "volume": 8900,
+      "date_maj": "2025-10-11T16:44:13.479200"
+    }
+  ]
+}
