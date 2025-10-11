@@ -1,0 +1,15 @@
+
+### Fichier 5 : `.gitignore` - **ESSENTIEL**
+
+```gitignore
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de données locaux (ils seront sur GitHub)
+brvm_local.json
+
+# Environnements Python
+__pycache__/
+*.pyc
+.env
