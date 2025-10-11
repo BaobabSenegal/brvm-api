@@ -1,0 +1,74 @@
+name: 📈 Update BRVM Data
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    # Toutes les 15 minutes de 9h30 à 15h, Lundi-Vendredi (UTC)
+    - cron: '*/15 9-14 * * 1-5'
+  workflow_dispatch:  # Permet de lancer manuellement
+
+permissions:
+  contents: write  # Donne les permissions d'écriture
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Étape 1: Récupération du code
+    - name: 🛎 Checkout du code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    # Étape 2: Configuration Python
+    - name: 🐍 Configuration Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    # Étape 3: Installation des dépendances
+    - name: 📦 Installation dépendances
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 pandas lxml
+    
+    # Étape 4: Vérification avant scraping
+    - name: 🔍 Vérification initiale
+      run: |
+        echo "=== AVANT SCRAPING ==="
+        echo "Répertoire: $(pwd)"
+        echo "Fichiers:"
+        ls -la
+    
+    # Étape 5: Lancement du scraping
+    - name: 🚀 Scraping BRVM
+      run: python scrape_brvm.py
+    
+    # Étape 6: Vérification CRITIQUE
+    - name: ✅ Vérification finale
+      run: |
+        echo "=== APRÈS SCRAPING ==="
+        echo "Fichiers:"
+        ls -la
+        
+        if [ -f "brvm.json" ]; then
+          echo "🎉 brvm.json EXISTE !"
+          echo "=== CONTENU ==="
+          cat brvm.json
+        else
+          echo "❌ ERREUR: brvm.json N'EXISTE PAS"
+          # Création d'urgence
+          echo '{"urgence": "fichier_non_cree", "date": "'$(date)'"}' > brvm.json
+          exit 1
+        fi
+    
+    # Étape 7: Commit automatique
+    - name: 💾 Sauvegarde automatique
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add brvm.json
+        git commit -m "🤖 Mise à jour auto BRVM - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "Aucun changement"
+        git push
