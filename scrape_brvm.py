@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """
-Scraping BRVM - Version Simple et Robuste
+Scraping BRVM - Version avec vrai scraping
 """
 
 import requests
 import json
+import pandas as pd
 from datetime import datetime
 import time
-import os
+import re
+from bs4 import BeautifulSoup
+from io import StringIO
 
 print("=== DÉMARRAGE SCRAPING BRVM ===")
 
@@ -49,10 +52,7 @@ def get_brvm_data():
         
         if response.status_code == 200:
             print("✅ Connexion réussie, extraction des données...")
-            
-            # ICI on va mettre la logique d'extraction réelle
-            # Pour l'instant, on retourne des données d'exemple
-            return get_sample_data()
+            return extract_real_data(response.content)
         else:
             print(f"❌ Statut {response.status_code}, utilisation du fallback")
             return get_fallback_data()
@@ -61,32 +61,88 @@ def get_brvm_data():
         print(f"❌ Erreur: {e}, utilisation du fallback")
         return get_fallback_data()
 
-def get_sample_data():
-    """Données d'exemple réalistes"""
-    return [
-        {
-            "symbole": "SONATEL",
-            "nom": "Sonatel",
-            "dernier": 15200,
-            "variation": 1.2,
-            "ouverture": 15000,
-            "haut": 15300,
-            "bas": 14950,
-            "volume": 12500,
-            "date_maj": datetime.now().isoformat()
-        },
-        {
-            "symbole": "BOABF",
-            "nom": "Bank Of Africa",
-            "dernier": 4500,
-            "variation": -0.5,
-            "ouverture": 4520,
-            "haut": 4550,
-            "bas": 4480,
-            "volume": 8900,
-            "date_maj": datetime.now().isoformat()
-        }
-    ]
+def extract_real_data(html_content):
+    """Extrait les données réelles de la page BRVM"""
+    soup = BeautifulSoup(html_content, 'html.parser')
+    tables = soup.find_all('table')
+    print(f"📊 {len(tables)} tables trouvées")
+    
+    # La table principale est la 4ème (index 3) d'après notre analyse
+    if len(tables) < 4:
+        print("❌ Table principale non trouvée")
+        return get_fallback_data()
+    
+    main_table = tables[3]
+    try:
+        # Utilisation de StringIO pour éviter le warning
+        table_html = str(main_table)
+        dfs = pd.read_html(StringIO(table_html))
+        df = dfs[0]
+        print(f"🎯 Table principale lue : {df.shape[0]} lignes, {df.shape[1]} colonnes")
+        
+        data = []
+        for index, row in df.iterrows():
+            try:
+                # Nettoyage des valeurs
+                symbole = str(row['Symbole']).strip()
+                nom = str(row['Nom']).strip()
+                
+                # Nettoyage des nombres
+                volume = clean_number(str(row['Volume']))
+                cours_veille = clean_number(str(row['Cours veille (FCFA)']))
+                cours_ouverture = clean_number(str(row['Cours Ouverture (FCFA)']))
+                cours_cloture = clean_number(str(row['Cours Clôture (FCFA)']))
+                variation = clean_percentage(str(row['Variation (%)']))
+                
+                # Vérification des données essentielles
+                if not symbole or symbole == 'nan' or cours_cloture <= 0:
+                    continue
+                
+                item = {
+                    "symbole": symbole,
+                    "nom": nom,
+                    "dernier": cours_cloture,
+                    "variation": variation,
+                    "ouverture": cours_ouverture,
+                    "haut": cours_cloture,  # Par défaut, car non fourni
+                    "bas": cours_cloture,   # Par défaut, car non fourni
+                    "volume": volume,
+                    "veille": cours_veille,
+                    "date_maj": datetime.now().isoformat()
+                }
+                data.append(item)
+                print(f"✅ {symbole}: {cours_cloture} FCFA")
+                
+            except Exception as e:
+                print(f"❌ Erreur sur la ligne {index}: {e}")
+                continue
+                
+        print(f"📈 {len(data)} actions extraites")
+        return data
+        
+    except Exception as e:
+        print(f"❌ Erreur lors de l'extraction : {e}")
+        return get_fallback_data()
+
+def clean_number(value_str):
+    """Nettoie les nombres formatés (ex: '1 268' -> 1268)"""
+    try:
+        # Supprimer les espaces et caractères non numériques sauf la virgule/pour les décimales
+        cleaned = re.sub(r'[^\d,]', '', value_str.strip())
+        cleaned = cleaned.replace(',', '.')
+        return float(cleaned) if cleaned else 0
+    except:
+        return 0
+
+def clean_percentage(value_str):
+    """Nettoie les pourcentages (ex: '7,50%' -> 7.5)"""
+    try:
+        # Supprimer le % et nettoyer
+        cleaned = re.sub(r'[^\d,-]', '', value_str.strip())
+        cleaned = cleaned.replace(',', '.')
+        return float(cleaned) if cleaned else 0
+    except:
+        return 0
 
 def get_fallback_data():
     """Données de secours garanties"""
@@ -101,6 +157,7 @@ def get_fallback_data():
             "haut": 1000,
             "bas": 1000,
             "volume": 0,
+            "veille": 1000,
             "date_maj": datetime.now().isoformat()
         }
     ]
