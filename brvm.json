@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "date_maj": "2025-12-11T13:27:41.535514",
-    "timestamp": 1765459661,
+    "date_maj": "2025-12-11T13:56:32.880678",
+    "timestamp": 1765461392,
     "nombre_actions": 47,
     "source": "BRVM",
     "version": "ultra_robuste",
@@ -12,14 +12,14 @@
     {
       "symbole": "ABJC",
       "nom": "SERVAIR ABIDJAN COTE D'IVOIRE",
-      "dernier": 2600.0,
-      "variation": 1.96,
+      "dernier": 2655.0,
+      "variation": 0.0,
       "ouverture": 2475.0,
-      "haut": 2600.0,
-      "bas": 2600.0,
-      "volume": 5948,
-      "veille": 2550.0,
-      "date_maj": "2025-12-11T13:27:41.528942"
+      "haut": 2655.0,
+      "bas": 2655.0,
+      "volume": 6182,
+      "veille": 2655.0,
+      "date_maj": "2025-12-11T13:56:32.874194"
     },
     {
       "symbole": "BICB",
@@ -31,31 +31,31 @@
       "bas": 4995.0,
       "volume": 410,
       "veille": 4950.0,
-      "date_maj": "2025-12-11T13:27:41.529078"
+      "date_maj": "2025-12-11T13:56:32.874344"
     },
     {
       "symbole": "BICC",
       "nom": "BICI COTE D'IVOIRE",
-      "dernier": 19630.0,
-      "variation": -1.11,
+      "dernier": 19635.0,
+      "variation": -1.08,
       "ouverture": 19850.0,
-      "haut": 19630.0,
-      "bas": 19630.0,
-      "volume": 92,
+      "haut": 19635.0,
+      "bas": 19635.0,
+      "volume": 93,
       "veille": 19850.0,
-      "date_maj": "2025-12-11T13:27:41.529182"
+      "date_maj": "2025-12-11T13:56:32.874449"
     },
     {
       "symbole": "BNBC",
       "nom": "BERNABE COTE D'IVOIRE",
-      "dernier": 1465.0,
+      "dernier": 1400.0,
       "variation": 0.0,
       "ouverture": 1465.0,
-      "haut": 1465.0,
-      "bas": 1465.0,
-      "volume": 472,
-      "veille": 1465.0,
-      "date_maj": "2025-12-11T13:27:41.529363"
+      "haut": 1400.0,
+      "bas": 1400.0,
+      "volume": 1075,
+      "veille": 1400.0,
+      "date_maj": "2025-12-11T13:56:32.874626"
     },
     {
       "symbole": "BOAB",
@@ -65,33 +65,33 @@
       "ouverture": 5800.0,
       "haut": 5850.0,
       "bas": 5850.0,
-      "volume": 793,
+      "volume": 798,
       "veille": 5810.0,
-      "date_maj": "2025-12-11T13:27:41.529543"
+      "date_maj": "2025-12-11T13:56:32.874767"
     },
     {
       "symbole": "BOABF",
       "nom": "BANK OF AFRICA BURKINA FASO",
-      "dernier": 4000.0,
-      "variation": 0.0,
+      "dernier": 4045.0,
+      "variation": 1.12,
       "ouverture": 4000.0,
-      "haut": 4000.0,
-      "bas": 4000.0,
-      "volume": 923,
+      "haut": 4045.0,
+      "bas": 4045.0,
+      "volume": 924,
       "veille": 4000.0,
-      "date_maj": "2025-12-11T13:27:41.529655"
+      "date_maj": "2025-12-11T13:56:32.874908"
     },
     {
       "symbole": "BOAC",
       "nom": "BANK OF AFRICA COTE D'IVOIRE",
-      "dernier": 7195.0,
-      "variation": 1.34,
+      "dernier": 7150.0,
+      "variation": 0.7,
       "ouverture": 7090.0,
-      "haut": 7195.0,
-      "bas": 7195.0,
-      "volume": 1220,
+      "haut": 7150.0,
+      "bas": 7150.0,
+      "volume": 1335,
       "veille": 7100.0,
-      "date_maj": "2025-12-11T13:27:41.529749"
+      "date_maj": "2025-12-11T13:56:32.875012"
     },
     {
       "symbole": "BOAM",
@@ -101,9 +101,9 @@
       "ouverture": 4175.0,
       "haut": 4200.0,
       "bas": 4200.0,
-      "volume": 2376,
+      "volume": 2470,
       "veille": 4170.0,
-      "date_maj": "2025-12-11T13:27:41.529840"
+      "date_maj": "2025-12-11T13:56:32.875104"
     },
     {
       "symbole": "BOAN",
@@ -113,9 +113,9 @@
       "ouverture": 2490.0,
       "haut": 2490.0,
       "bas": 2490.0,
-      "volume": 1593,
+      "volume": 1633,
       "veille": 2490.0,
-      "date_maj": "2025-12-11T13:27:41.529929"
+      "date_maj": "2025-12-11T13:56:32.875194"
     },
     {
       "symbole": "BOAS",
@@ -125,33 +125,33 @@
       "ouverture": 5485.0,
       "haut": 5485.0,
       "bas": 5485.0,
-      "volume": 799,
+      "volume": 832,
       "veille": 5400.0,
-      "date_maj": "2025-12-11T13:27:41.530016"
+      "date_maj": "2025-12-11T13:56:32.875284"
     },
     {
       "symbole": "CABC",
       "nom": "SICABLE COTE D'IVOIRE",
-      "dernier": 2150.0,
-      "variation": -1.6,
+      "dernier": 2200.0,
+      "variation": 0.69,
       "ouverture": 2185.0,
-      "haut": 2150.0,
-      "bas": 2150.0,
-      "volume": 395,
+      "haut": 2200.0,
+      "bas": 2200.0,
+      "volume": 2913,
       "veille": 2185.0,
-      "date_maj": "2025-12-11T13:27:41.530109"
+      "date_maj": "2025-12-11T13:56:32.875373"
     },
     {
       "symbole": "CBIBF",
       "nom": "CORIS BANK INTERNATIONAL BURKINA FASO",
-      "dernier": 10600.0,
-      "variation": -0.47,
+      "dernier": 10550.0,
+      "variation": -0.94,
       "ouverture": 10650.0,
-      "haut": 10600.0,
-      "bas": 10600.0,
-      "volume": 60,
+      "haut": 10550.0,
+      "bas": 10550.0,
+      "volume": 62,
       "veille": 10650.0,
-      "date_maj": "2025-12-11T13:27:41.530200"
+      "date_maj": "2025-12-11T13:56:32.875464"
     },
     {
       "symbole": "CFAC",
@@ -161,9 +161,9 @@
       "ouverture": 1600.0,
       "haut": 1610.0,
       "bas": 1610.0,
-      "volume": 784,
+      "volume": 830,
       "veille": 1600.0,
-      "date_maj": "2025-12-11T13:27:41.530372"
+      "date_maj": "2025-12-11T13:56:32.875644"
     },
     {
       "symbole": "CIEC",
@@ -175,7 +175,7 @@
       "bas": 2500.0,
       "volume": 12251,
       "veille": 2500.0,
-      "date_maj": "2025-12-11T13:27:41.530524"
+      "date_maj": "2025-12-11T13:56:32.875778"
     },
     {
       "symbole": "ECOC",
@@ -185,9 +185,9 @@
       "ouverture": 15800.0,
       "haut": 15800.0,
       "bas": 15800.0,
-      "volume": 747,
+      "volume": 787,
       "veille": 15800.0,
-      "date_maj": "2025-12-11T13:27:41.530703"
+      "date_maj": "2025-12-11T13:56:32.875984"
     },
     {
       "symbole": "ETIT",
@@ -197,9 +197,9 @@
       "ouverture": 21.0,
       "haut": 22.0,
       "bas": 22.0,
-      "volume": 112919,
+      "volume": 113761,
       "veille": 22.0,
-      "date_maj": "2025-12-11T13:27:41.530900"
+      "date_maj": "2025-12-11T13:56:32.876180"
     },
     {
       "symbole": "FTSC",
@@ -209,9 +209,9 @@
       "ouverture": 2270.0,
       "haut": 2270.0,
       "bas": 2270.0,
-      "volume": 1351,
+      "volume": 1458,
       "veille": 2270.0,
-      "date_maj": "2025-12-11T13:27:41.531015"
+      "date_maj": "2025-12-11T13:56:32.876297"
     },
     {
       "symbole": "LNBB",
@@ -223,7 +223,7 @@
       "bas": 3865.0,
       "volume": 546,
       "veille": 3825.0,
-      "date_maj": "2025-12-11T13:27:41.531108"
+      "date_maj": "2025-12-11T13:56:32.876394"
     },
     {
       "symbole": "NEIC",
@@ -233,9 +233,9 @@
       "ouverture": 945.0,
       "haut": 945.0,
       "bas": 945.0,
-      "volume": 435,
+      "volume": 445,
       "veille": 935.0,
-      "date_maj": "2025-12-11T13:27:41.531203"
+      "date_maj": "2025-12-11T13:56:32.876505"
     },
     {
       "symbole": "NSBC",
@@ -245,9 +245,9 @@
       "ouverture": 11900.0,
       "haut": 11800.0,
       "bas": 11800.0,
-      "volume": 774,
+      "volume": 874,
       "veille": 11900.0,
-      "date_maj": "2025-12-11T13:27:41.531292"
+      "date_maj": "2025-12-11T13:56:32.876600"
     },
     {
       "symbole": "NTLC",
@@ -259,43 +259,43 @@
       "bas": 11300.0,
       "volume": 236,
       "veille": 11400.0,
-      "date_maj": "2025-12-11T13:27:41.531380"
+      "date_maj": "2025-12-11T13:56:32.876694"
     },
     {
       "symbole": "ONTBF",
       "nom": "ONATEL BURKINA FASO",
-      "dernier": 2500.0,
-      "variation": -0.99,
+      "dernier": 2520.0,
+      "variation": -0.2,
       "ouverture": 2520.0,
-      "haut": 2500.0,
-      "bas": 2500.0,
-      "volume": 2718,
+      "haut": 2520.0,
+      "bas": 2520.0,
+      "volume": 2754,
       "veille": 2525.0,
-      "date_maj": "2025-12-11T13:27:41.531497"
+      "date_maj": "2025-12-11T13:56:32.876782"
     },
     {
       "symbole": "ORAC",
       "nom": "ORANGE COTE D'IVOIRE",
-      "dernier": 15400.0,
-      "variation": 0.33,
+      "dernier": 15150.0,
+      "variation": -1.3,
       "ouverture": 15345.0,
-      "haut": 15400.0,
-      "bas": 15400.0,
-      "volume": 479,
+      "haut": 15150.0,
+      "bas": 15150.0,
+      "volume": 1422,
       "veille": 15350.0,
-      "date_maj": "2025-12-11T13:27:41.531598"
+      "date_maj": "2025-12-11T13:56:32.876891"
     },
     {
       "symbole": "ORGT",
       "nom": "ORAGROUP TOGO",
-      "dernier": 2555.0,
-      "variation": -0.97,
+      "dernier": 2515.0,
+      "variation": 0.6,
       "ouverture": 2580.0,
-      "haut": 2555.0,
-      "bas": 2555.0,
-      "volume": 99,
-      "veille": 2580.0,
-      "date_maj": "2025-12-11T13:27:41.531765"
+      "haut": 2515.0,
+      "bas": 2515.0,
+      "volume": 149,
+      "veille": 2515.0,
+      "date_maj": "2025-12-11T13:56:32.876989"
     },
     {
       "symbole": "PALC",
@@ -305,9 +305,9 @@
       "ouverture": 8045.0,
       "haut": 8000.0,
       "bas": 8000.0,
-      "volume": 404,
+      "volume": 406,
       "veille": 8000.0,
-      "date_maj": "2025-12-11T13:27:41.531880"
+      "date_maj": "2025-12-11T13:56:32.877078"
     },
     {
       "symbole": "PRSC",
@@ -319,7 +319,7 @@
       "bas": 3855.0,
       "volume": 86,
       "veille": 3865.0,
-      "date_maj": "2025-12-11T13:27:41.531972"
+      "date_maj": "2025-12-11T13:56:32.877166"
     },
     {
       "symbole": "SAFC",
@@ -329,21 +329,21 @@
       "ouverture": 3495.0,
       "haut": 3455.0,
       "bas": 3455.0,
-      "volume": 1136,
+      "volume": 1142,
       "veille": 3455.0,
-      "date_maj": "2025-12-11T13:27:41.532061"
+      "date_maj": "2025-12-11T13:56:32.877254"
     },
     {
       "symbole": "SCRC",
       "nom": "SUCRIVOIRE COTE D'IVOIRE",
-      "dernier": 1045.0,
-      "variation": 0.0,
+      "dernier": 1040.0,
+      "variation": -0.48,
       "ouverture": 1000.0,
-      "haut": 1045.0,
-      "bas": 1045.0,
-      "volume": 2605,
+      "haut": 1040.0,
+      "bas": 1040.0,
+      "volume": 2628,
       "veille": 1045.0,
-      "date_maj": "2025-12-11T13:27:41.532220"
+      "date_maj": "2025-12-11T13:56:32.877422"
     },
     {
       "symbole": "SDCC",
@@ -355,19 +355,19 @@
       "bas": 6100.0,
       "volume": 227,
       "veille": 6100.0,
-      "date_maj": "2025-12-11T13:27:41.532334"
+      "date_maj": "2025-12-11T13:56:32.877547"
     },
     {
       "symbole": "SDSC",
       "nom": "AFRICA GLOBAL LOGISTICS COTE D'IVOIRE",
-      "dernier": 1450.0,
-      "variation": 0.0,
+      "dernier": 1425.0,
+      "variation": -1.72,
       "ouverture": 1450.0,
-      "haut": 1450.0,
-      "bas": 1450.0,
-      "volume": 2305,
+      "haut": 1425.0,
+      "bas": 1425.0,
+      "volume": 2605,
       "veille": 1450.0,
-      "date_maj": "2025-12-11T13:27:41.532428"
+      "date_maj": "2025-12-11T13:56:32.877640"
     },
     {
       "symbole": "SEMC",
@@ -379,19 +379,19 @@
       "bas": 700.0,
       "volume": 0,
       "veille": 700.0,
-      "date_maj": "2025-12-11T13:27:41.532535"
+      "date_maj": "2025-12-11T13:56:32.877732"
     },
     {
       "symbole": "SGBC",
       "nom": "SOCIETE GENERALE COTE D'IVOIRE",
-      "dernier": 27800.0,
-      "variation": 0.0,
+      "dernier": 29000.0,
+      "variation": -0.85,
       "ouverture": 29545.0,
-      "haut": 27800.0,
-      "bas": 27800.0,
-      "volume": 3113,
-      "veille": 27800.0,
-      "date_maj": "2025-12-11T13:27:41.532706"
+      "haut": 29000.0,
+      "bas": 29000.0,
+      "volume": 3125,
+      "veille": 29000.0,
+      "date_maj": "2025-12-11T13:56:32.877835"
     },
     {
       "symbole": "SHEC",
@@ -401,21 +401,21 @@
       "ouverture": 1570.0,
       "haut": 1550.0,
       "bas": 1550.0,
-      "volume": 3801,
+      "volume": 3811,
       "veille": 1565.0,
-      "date_maj": "2025-12-11T13:27:41.532820"
+      "date_maj": "2025-12-11T13:56:32.877945"
     },
     {
       "symbole": "SIBC",
       "nom": "SOCIETE IVOIRIENNE DE BANQUE COTE D'IVOIRE",
-      "dernier": 5790.0,
-      "variation": 0.7,
+      "dernier": 5795.0,
+      "variation": 0.78,
       "ouverture": 5750.0,
-      "haut": 5790.0,
-      "bas": 5790.0,
-      "volume": 3434,
+      "haut": 5795.0,
+      "bas": 5795.0,
+      "volume": 3450,
       "veille": 5750.0,
-      "date_maj": "2025-12-11T13:27:41.532911"
+      "date_maj": "2025-12-11T13:56:32.878035"
     },
     {
       "symbole": "SICC",
@@ -427,7 +427,7 @@
       "bas": 3640.0,
       "volume": 24,
       "veille": 3640.0,
-      "date_maj": "2025-12-11T13:27:41.532998"
+      "date_maj": "2025-12-11T13:56:32.878127"
     },
     {
       "symbole": "SIVC",
@@ -439,19 +439,19 @@
       "bas": 1005.0,
       "volume": 5895,
       "veille": 1005.0,
-      "date_maj": "2025-12-11T13:27:41.533154"
+      "date_maj": "2025-12-11T13:56:32.878298"
     },
     {
       "symbole": "SLBC",
       "nom": "SOLIBRA COTE D'IVOIRE",
-      "dernier": 25905.0,
+      "dernier": 28860.0,
       "variation": 0.0,
       "ouverture": 28200.0,
-      "haut": 25905.0,
-      "bas": 25905.0,
-      "volume": 1069,
-      "veille": 25905.0,
-      "date_maj": "2025-12-11T13:27:41.533338"
+      "haut": 28860.0,
+      "bas": 28860.0,
+      "volume": 1083,
+      "veille": 28860.0,
+      "date_maj": "2025-12-11T13:56:32.878490"
     },
     {
       "symbole": "SMBC",
@@ -461,21 +461,21 @@
       "ouverture": 9700.0,
       "haut": 9700.0,
       "bas": 9700.0,
-      "volume": 137,
+      "volume": 169,
       "veille": 9700.0,
-      "date_maj": "2025-12-11T13:27:41.533451"
+      "date_maj": "2025-12-11T13:56:32.878606"
     },
     {
       "symbole": "SNTS",
       "nom": "SONATEL SENEGAL",
-      "dernier": 25600.0,
-      "variation": 0.39,
+      "dernier": 25000.0,
+      "variation": -1.96,
       "ouverture": 25500.0,
-      "haut": 25600.0,
-      "bas": 25600.0,
-      "volume": 4580,
+      "haut": 25000.0,
+      "bas": 25000.0,
+      "volume": 7679,
       "veille": 25500.0,
-      "date_maj": "2025-12-11T13:27:41.533572"
+      "date_maj": "2025-12-11T13:56:32.878710"
     },
     {
       "symbole": "SOGC",
@@ -485,9 +485,9 @@
       "ouverture": 7845.0,
       "haut": 7850.0,
       "bas": 7850.0,
-      "volume": 3087,
+      "volume": 3111,
       "veille": 7845.0,
-      "date_maj": "2025-12-11T13:27:41.533663"
+      "date_maj": "2025-12-11T13:56:32.878801"
     },
     {
       "symbole": "SPHC",
@@ -499,7 +499,7 @@
       "bas": 7770.0,
       "volume": 320,
       "veille": 7785.0,
-      "date_maj": "2025-12-11T13:27:41.533751"
+      "date_maj": "2025-12-11T13:56:32.878918"
     },
     {
       "symbole": "STAC",
@@ -511,7 +511,7 @@
       "bas": 1100.0,
       "volume": 462,
       "veille": 1100.0,
-      "date_maj": "2025-12-11T13:27:41.533839"
+      "date_maj": "2025-12-11T13:56:32.879010"
     },
     {
       "symbole": "STBC",
@@ -521,9 +521,9 @@
       "ouverture": 19490.0,
       "haut": 19500.0,
       "bas": 19500.0,
-      "volume": 1315,
+      "volume": 1423,
       "veille": 19400.0,
-      "date_maj": "2025-12-11T13:27:41.533927"
+      "date_maj": "2025-12-11T13:56:32.879098"
     },
     {
       "symbole": "TTLC",
@@ -533,9 +533,9 @@
       "ouverture": 2395.0,
       "haut": 2390.0,
       "bas": 2390.0,
-      "volume": 1012,
+      "volume": 1025,
       "veille": 2385.0,
-      "date_maj": "2025-12-11T13:27:41.534014"
+      "date_maj": "2025-12-11T13:56:32.879186"
     },
     {
       "symbole": "TTLS",
@@ -545,9 +545,9 @@
       "ouverture": 2550.0,
       "haut": 2550.0,
       "bas": 2550.0,
-      "volume": 279,
+      "volume": 305,
       "veille": 2550.0,
-      "date_maj": "2025-12-11T13:27:41.534108"
+      "date_maj": "2025-12-11T13:56:32.879281"
     },
     {
       "symbole": "UNLC",
@@ -559,7 +559,7 @@
       "bas": 43200.0,
       "volume": 10,
       "veille": 43200.0,
-      "date_maj": "2025-12-11T13:27:41.534193"
+      "date_maj": "2025-12-11T13:56:32.879368"
     },
     {
       "symbole": "UNXC",
@@ -571,7 +571,7 @@
       "bas": 1435.0,
       "volume": 2113,
       "veille": 1440.0,
-      "date_maj": "2025-12-11T13:27:41.534280"
+      "date_maj": "2025-12-11T13:56:32.879455"
     }
   ]
 }
