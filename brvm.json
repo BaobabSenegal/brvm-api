@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "date_maj": "2026-06-25T13:50:29.467486",
-    "timestamp": 1782395429,
+    "date_maj": "2026-06-25T16:22:19.437666",
+    "timestamp": 1782404539,
     "nombre_actions": 47,
     "source": "BRVM",
     "version": "ultra_robuste",
@@ -12,26 +12,26 @@
     {
       "symbole": "ABJC",
       "nom": "SERVAIR ABIDJAN COTE D'IVOIRE",
-      "dernier": 3305.0,
-      "variation": 0.0,
+      "dernier": 3300.0,
+      "variation": -0.15,
       "ouverture": 3305.0,
-      "haut": 3305.0,
-      "bas": 3305.0,
-      "volume": 2952,
+      "haut": 3300.0,
+      "bas": 3300.0,
+      "volume": 3068,
       "veille": 3305.0,
-      "date_maj": "2026-06-25T13:50:29.459840"
+      "date_maj": "2026-06-25T16:22:19.430707"
     },
     {
       "symbole": "BICB",
       "nom": "BANQUE INTERNATIONALE POUR L’INDUSTRIE ET LE COMMERCE DU BENIN",
-      "dernier": 5790.0,
-      "variation": 0.0,
+      "dernier": 5700.0,
+      "variation": -1.55,
       "ouverture": 5795.0,
-      "haut": 5790.0,
-      "bas": 5790.0,
-      "volume": 10517,
+      "haut": 5700.0,
+      "bas": 5700.0,
+      "volume": 11470,
       "veille": 5790.0,
-      "date_maj": "2026-06-25T13:50:29.459970"
+      "date_maj": "2026-06-25T16:22:19.430863"
     },
     {
       "symbole": "BICC",
@@ -41,9 +41,9 @@
       "ouverture": 27800.0,
       "haut": 28900.0,
       "bas": 28900.0,
-      "volume": 330,
+      "volume": 456,
       "veille": 28900.0,
-      "date_maj": "2026-06-25T13:50:29.460175"
+      "date_maj": "2026-06-25T16:22:19.431076"
     },
     {
       "symbole": "BNBC",
@@ -53,21 +53,21 @@
       "ouverture": 1985.0,
       "haut": 1990.0,
       "bas": 1990.0,
-      "volume": 637,
+      "volume": 652,
       "veille": 1965.0,
-      "date_maj": "2026-06-25T13:50:29.460343"
+      "date_maj": "2026-06-25T16:22:19.431229"
     },
     {
       "symbole": "BOAB",
       "nom": "BANK OF AFRICA BENIN",
-      "dernier": 8945.0,
-      "variation": -0.06,
+      "dernier": 8950.0,
+      "variation": 0.0,
       "ouverture": 8950.0,
-      "haut": 8945.0,
-      "bas": 8945.0,
-      "volume": 1783,
+      "haut": 8950.0,
+      "bas": 8950.0,
+      "volume": 3870,
       "veille": 8950.0,
-      "date_maj": "2026-06-25T13:50:29.460481"
+      "date_maj": "2026-06-25T16:22:19.431341"
     },
     {
       "symbole": "BOABF",
@@ -77,21 +77,21 @@
       "ouverture": 5600.0,
       "haut": 5600.0,
       "bas": 5600.0,
-      "volume": 5328,
+      "volume": 5688,
       "veille": 5600.0,
-      "date_maj": "2026-06-25T13:50:29.460580"
+      "date_maj": "2026-06-25T16:22:19.431416"
     },
     {
       "symbole": "BOAC",
       "nom": "BANK OF AFRICA COTE D'IVOIRE",
-      "dernier": 9175.0,
-      "variation": 0.82,
+      "dernier": 9100.0,
+      "variation": 0.0,
       "ouverture": 9155.0,
-      "haut": 9175.0,
-      "bas": 9175.0,
-      "volume": 15106,
+      "haut": 9100.0,
+      "bas": 9100.0,
+      "volume": 16671,
       "veille": 9100.0,
-      "date_maj": "2026-06-25T13:50:29.460672"
+      "date_maj": "2026-06-25T16:22:19.431482"
     },
     {
       "symbole": "BOAM",
@@ -101,57 +101,57 @@
       "ouverture": 5110.0,
       "haut": 5110.0,
       "bas": 5110.0,
-      "volume": 10053,
+      "volume": 10230,
       "veille": 5110.0,
-      "date_maj": "2026-06-25T13:50:29.460837"
+      "date_maj": "2026-06-25T16:22:19.431612"
     },
     {
       "symbole": "BOAN",
       "nom": "BANK OF AFRICA NIGER",
-      "dernier": 4010.0,
-      "variation": 0.12,
+      "dernier": 4045.0,
+      "variation": 1.0,
       "ouverture": 4185.0,
-      "haut": 4010.0,
-      "bas": 4010.0,
-      "volume": 8364,
+      "haut": 4045.0,
+      "bas": 4045.0,
+      "volume": 9079,
       "veille": 4005.0,
-      "date_maj": "2026-06-25T13:50:29.461103"
+      "date_maj": "2026-06-25T16:22:19.431826"
     },
     {
       "symbole": "BOAS",
       "nom": "BANK OF AFRICA SENEGAL",
-      "dernier": 7350.0,
-      "variation": 0.68,
+      "dernier": 7345.0,
+      "variation": 0.62,
       "ouverture": 7300.0,
-      "haut": 7350.0,
-      "bas": 7350.0,
-      "volume": 7287,
+      "haut": 7345.0,
+      "bas": 7345.0,
+      "volume": 7347,
       "veille": 7300.0,
-      "date_maj": "2026-06-25T13:50:29.461264"
+      "date_maj": "2026-06-25T16:22:19.431964"
     },
     {
       "symbole": "CABC",
       "nom": "SICABLE COTE D'IVOIRE",
-      "dernier": 4000.0,
+      "dernier": 3900.0,
       "variation": 0.0,
       "ouverture": 4000.0,
-      "haut": 4000.0,
-      "bas": 4000.0,
-      "volume": 581,
-      "veille": 4000.0,
-      "date_maj": "2026-06-25T13:50:29.461386"
+      "haut": 3900.0,
+      "bas": 3900.0,
+      "volume": 717,
+      "veille": 3900.0,
+      "date_maj": "2026-06-25T16:22:19.432170"
     },
     {
       "symbole": "CBIBF",
       "nom": "CORIS BANK INTERNATIONAL BURKINA FASO",
-      "dernier": 22000.0,
-      "variation": 0.99,
+      "dernier": 21995.0,
+      "variation": 0.96,
       "ouverture": 21800.0,
-      "haut": 22000.0,
-      "bas": 22000.0,
-      "volume": 853,
+      "haut": 21995.0,
+      "bas": 21995.0,
+      "volume": 891,
       "veille": 21785.0,
-      "date_maj": "2026-06-25T13:50:29.461481"
+      "date_maj": "2026-06-25T16:22:19.432303"
     },
     {
       "symbole": "CFAC",
@@ -163,7 +163,7 @@
       "bas": 1665.0,
       "volume": 1408,
       "veille": 1645.0,
-      "date_maj": "2026-06-25T13:50:29.461655"
+      "date_maj": "2026-06-25T16:22:19.432499"
     },
     {
       "symbole": "CIEC",
@@ -173,33 +173,33 @@
       "ouverture": 5100.0,
       "haut": 5190.0,
       "bas": 5190.0,
-      "volume": 4819,
+      "volume": 5366,
       "veille": 5100.0,
-      "date_maj": "2026-06-25T13:50:29.461835"
+      "date_maj": "2026-06-25T16:22:19.432638"
     },
     {
       "symbole": "ECOC",
       "nom": "ECOBANK COTE D'IVOIRE",
-      "dernier": 17200.0,
+      "dernier": 16800.0,
       "variation": 0.0,
       "ouverture": 16500.0,
-      "haut": 17200.0,
-      "bas": 17200.0,
-      "volume": 194,
-      "veille": 17200.0,
-      "date_maj": "2026-06-25T13:50:29.462034"
+      "haut": 16800.0,
+      "bas": 16800.0,
+      "volume": 234,
+      "veille": 16800.0,
+      "date_maj": "2026-06-25T16:22:19.432822"
     },
     {
       "symbole": "ETIT",
       "nom": "Ecobank Transnational Incorporated TOGO",
-      "dernier": 38.0,
-      "variation": 2.7,
+      "dernier": 37.0,
+      "variation": 0.0,
       "ouverture": 38.0,
-      "haut": 38.0,
-      "bas": 38.0,
-      "volume": 797691,
+      "haut": 37.0,
+      "bas": 37.0,
+      "volume": 1080462,
       "veille": 37.0,
-      "date_maj": "2026-06-25T13:50:29.462229"
+      "date_maj": "2026-06-25T16:22:19.432947"
     },
     {
       "symbole": "FTSC",
@@ -209,9 +209,9 @@
       "ouverture": 1950.0,
       "haut": 1955.0,
       "bas": 1955.0,
-      "volume": 8347,
+      "volume": 9086,
       "veille": 1955.0,
-      "date_maj": "2026-06-25T13:50:29.462359"
+      "date_maj": "2026-06-25T16:22:19.433071"
     },
     {
       "symbole": "LNBB",
@@ -221,9 +221,9 @@
       "ouverture": 4100.0,
       "haut": 4200.0,
       "bas": 4200.0,
-      "volume": 11448,
+      "volume": 11508,
       "veille": 4200.0,
-      "date_maj": "2026-06-25T13:50:29.462533"
+      "date_maj": "2026-06-25T16:22:19.433257"
     },
     {
       "symbole": "NEIC",
@@ -233,9 +233,9 @@
       "ouverture": 2300.0,
       "haut": 2285.0,
       "bas": 2285.0,
-      "volume": 1336,
+      "volume": 6286,
       "veille": 2285.0,
-      "date_maj": "2026-06-25T13:50:29.462697"
+      "date_maj": "2026-06-25T16:22:19.433382"
     },
     {
       "symbole": "NSBC",
@@ -245,9 +245,9 @@
       "ouverture": 19400.0,
       "haut": 19500.0,
       "bas": 19500.0,
-      "volume": 586,
+      "volume": 686,
       "veille": 19400.0,
-      "date_maj": "2026-06-25T13:50:29.462828"
+      "date_maj": "2026-06-25T16:22:19.433485"
     },
     {
       "symbole": "NTLC",
@@ -257,21 +257,21 @@
       "ouverture": 15000.0,
       "haut": 14995.0,
       "bas": 14995.0,
-      "volume": 725,
+      "volume": 745,
       "veille": 15000.0,
-      "date_maj": "2026-06-25T13:50:29.462925"
+      "date_maj": "2026-06-25T16:22:19.433590"
     },
     {
       "symbole": "ONTBF",
       "nom": "ONATEL BURKINA FASO",
-      "dernier": 2800.0,
-      "variation": 0.0,
+      "dernier": 2805.0,
+      "variation": 0.18,
       "ouverture": 2800.0,
-      "haut": 2800.0,
-      "bas": 2800.0,
-      "volume": 4501,
+      "haut": 2805.0,
+      "bas": 2805.0,
+      "volume": 4628,
       "veille": 2800.0,
-      "date_maj": "2026-06-25T13:50:29.463015"
+      "date_maj": "2026-06-25T16:22:19.433686"
     },
     {
       "symbole": "ORAC",
@@ -281,21 +281,21 @@
       "ouverture": 16145.0,
       "haut": 16695.0,
       "bas": 16695.0,
-      "volume": 1126,
+      "volume": 1309,
       "veille": 16595.0,
-      "date_maj": "2026-06-25T13:50:29.463207"
+      "date_maj": "2026-06-25T16:22:19.433848"
     },
     {
       "symbole": "ORGT",
       "nom": "ORAGROUP TOGO",
-      "dernier": 2630.0,
-      "variation": -0.38,
+      "dernier": 2625.0,
+      "variation": -0.57,
       "ouverture": 2620.0,
-      "haut": 2630.0,
-      "bas": 2630.0,
-      "volume": 3142,
+      "haut": 2625.0,
+      "bas": 2625.0,
+      "volume": 3328,
       "veille": 2640.0,
-      "date_maj": "2026-06-25T13:50:29.463370"
+      "date_maj": "2026-06-25T16:22:19.433988"
     },
     {
       "symbole": "PALC",
@@ -305,9 +305,9 @@
       "ouverture": 8730.0,
       "haut": 8740.0,
       "bas": 8740.0,
-      "volume": 1803,
+      "volume": 1911,
       "veille": 8740.0,
-      "date_maj": "2026-06-25T13:50:29.463498"
+      "date_maj": "2026-06-25T16:22:19.434122"
     },
     {
       "symbole": "PRSC",
@@ -317,21 +317,21 @@
       "ouverture": 4600.0,
       "haut": 4620.0,
       "bas": 4620.0,
-      "volume": 403,
+      "volume": 410,
       "veille": 4620.0,
-      "date_maj": "2026-06-25T13:50:29.463593"
+      "date_maj": "2026-06-25T16:22:19.434210"
     },
     {
       "symbole": "SAFC",
       "nom": "SAFCA COTE D'IVOIRE",
-      "dernier": 4475.0,
-      "variation": 1.36,
+      "dernier": 4480.0,
+      "variation": 1.47,
       "ouverture": 4700.0,
-      "haut": 4475.0,
-      "bas": 4475.0,
-      "volume": 7109,
+      "haut": 4480.0,
+      "bas": 4480.0,
+      "volume": 7452,
       "veille": 4415.0,
-      "date_maj": "2026-06-25T13:50:29.463758"
+      "date_maj": "2026-06-25T16:22:19.434364"
     },
     {
       "symbole": "SCRC",
@@ -341,21 +341,21 @@
       "ouverture": 3190.0,
       "haut": 3105.0,
       "bas": 3105.0,
-      "volume": 6838,
+      "volume": 6903,
       "veille": 3105.0,
-      "date_maj": "2026-06-25T13:50:29.463916"
+      "date_maj": "2026-06-25T16:22:19.434469"
     },
     {
       "symbole": "SDCC",
       "nom": "SODE COTE D'IVOIRE",
-      "dernier": 12130.0,
-      "variation": 0.08,
+      "dernier": 12000.0,
+      "variation": -0.99,
       "ouverture": 11900.0,
-      "haut": 12130.0,
-      "bas": 12130.0,
-      "volume": 335,
+      "haut": 12000.0,
+      "bas": 12000.0,
+      "volume": 365,
       "veille": 12120.0,
-      "date_maj": "2026-06-25T13:50:29.464046"
+      "date_maj": "2026-06-25T16:22:19.434538"
     },
     {
       "symbole": "SDSC",
@@ -365,33 +365,33 @@
       "ouverture": 2450.0,
       "haut": 2500.0,
       "bas": 2500.0,
-      "volume": 14863,
+      "volume": 16109,
       "veille": 2490.0,
-      "date_maj": "2026-06-25T13:50:29.464240"
+      "date_maj": "2026-06-25T16:22:19.434668"
     },
     {
       "symbole": "SEMC",
       "nom": "EVIOSYS PACKAGING SIEM COTE D'IVOIRE",
-      "dernier": 1550.0,
-      "variation": -0.32,
+      "dernier": 1555.0,
+      "variation": 0.0,
       "ouverture": 1540.0,
-      "haut": 1550.0,
-      "bas": 1550.0,
-      "volume": 1537,
+      "haut": 1555.0,
+      "bas": 1555.0,
+      "volume": 1717,
       "veille": 1555.0,
-      "date_maj": "2026-06-25T13:50:29.464406"
+      "date_maj": "2026-06-25T16:22:19.434769"
     },
     {
       "symbole": "SGBC",
       "nom": "SOCIETE GENERALE COTE D'IVOIRE",
-      "dernier": 39100.0,
-      "variation": 0.58,
+      "dernier": 38995.0,
+      "variation": 0.31,
       "ouverture": 38900.0,
-      "haut": 39100.0,
-      "bas": 39100.0,
-      "volume": 1730,
+      "haut": 38995.0,
+      "bas": 38995.0,
+      "volume": 2203,
       "veille": 38875.0,
-      "date_maj": "2026-06-25T13:50:29.464534"
+      "date_maj": "2026-06-25T16:22:19.434843"
     },
     {
       "symbole": "SHEC",
@@ -401,21 +401,21 @@
       "ouverture": 2160.0,
       "haut": 2165.0,
       "bas": 2165.0,
-      "volume": 2264,
+      "volume": 2364,
       "veille": 2165.0,
-      "date_maj": "2026-06-25T13:50:29.464629"
+      "date_maj": "2026-06-25T16:22:19.434906"
     },
     {
       "symbole": "SIBC",
       "nom": "SOCIETE IVOIRIENNE DE BANQUE COTE D'IVOIRE",
-      "dernier": 8895.0,
-      "variation": 0.57,
+      "dernier": 8890.0,
+      "variation": 0.51,
       "ouverture": 8800.0,
-      "haut": 8895.0,
-      "bas": 8895.0,
-      "volume": 4984,
+      "haut": 8890.0,
+      "bas": 8890.0,
+      "volume": 5429,
       "veille": 8845.0,
-      "date_maj": "2026-06-25T13:50:29.464718"
+      "date_maj": "2026-06-25T16:22:19.434965"
     },
     {
       "symbole": "SICC",
@@ -427,7 +427,7 @@
       "bas": 4500.0,
       "volume": 292,
       "veille": 4500.0,
-      "date_maj": "2026-06-25T13:50:29.464804"
+      "date_maj": "2026-06-25T16:22:19.435024"
     },
     {
       "symbole": "SIVC",
@@ -437,9 +437,9 @@
       "ouverture": 2730.0,
       "haut": 2650.0,
       "bas": 2650.0,
-      "volume": 5404,
+      "volume": 5894,
       "veille": 2650.0,
-      "date_maj": "2026-06-25T13:50:29.464967"
+      "date_maj": "2026-06-25T16:22:19.435174"
     },
     {
       "symbole": "SLBC",
@@ -449,9 +449,9 @@
       "ouverture": 38495.0,
       "haut": 38500.0,
       "bas": 38500.0,
-      "volume": 258,
+      "volume": 274,
       "veille": 38495.0,
-      "date_maj": "2026-06-25T13:50:29.465156"
+      "date_maj": "2026-06-25T16:22:19.435278"
     },
     {
       "symbole": "SMBC",
@@ -461,81 +461,81 @@
       "ouverture": 16300.0,
       "haut": 16500.0,
       "bas": 16500.0,
-      "volume": 333,
+      "volume": 345,
       "veille": 16500.0,
-      "date_maj": "2026-06-25T13:50:29.465288"
+      "date_maj": "2026-06-25T16:22:19.435345"
     },
     {
       "symbole": "SNTS",
       "nom": "SONATEL SENEGAL",
-      "dernier": 28985.0,
-      "variation": 1.65,
+      "dernier": 28600.0,
+      "variation": 0.3,
       "ouverture": 28990.0,
-      "haut": 28985.0,
-      "bas": 28985.0,
-      "volume": 1308,
+      "haut": 28600.0,
+      "bas": 28600.0,
+      "volume": 1483,
       "veille": 28515.0,
-      "date_maj": "2026-06-25T13:50:29.465383"
+      "date_maj": "2026-06-25T16:22:19.435406"
     },
     {
       "symbole": "SOGC",
       "nom": "SOGB COTE D'IVOIRE",
-      "dernier": 8300.0,
-      "variation": 0.24,
+      "dernier": 8335.0,
+      "variation": 0.66,
       "ouverture": 8285.0,
-      "haut": 8300.0,
-      "bas": 8300.0,
-      "volume": 3936,
+      "haut": 8335.0,
+      "bas": 8335.0,
+      "volume": 3941,
       "veille": 8280.0,
-      "date_maj": "2026-06-25T13:50:29.465478"
+      "date_maj": "2026-06-25T16:22:19.435473"
     },
     {
       "symbole": "SPHC",
       "nom": "SAPH COTE D'IVOIRE",
-      "dernier": 7510.0,
-      "variation": -1.77,
+      "dernier": 7600.0,
+      "variation": -0.59,
       "ouverture": 7510.0,
-      "haut": 7510.0,
-      "bas": 7510.0,
-      "volume": 1843,
+      "haut": 7600.0,
+      "bas": 7600.0,
+      "volume": 1944,
       "veille": 7645.0,
-      "date_maj": "2026-06-25T13:50:29.465566"
+      "date_maj": "2026-06-25T16:22:19.435533"
     },
     {
       "symbole": "STAC",
       "nom": "SETAO COTE D'IVOIRE",
-      "dernier": 3600.0,
-      "variation": -1.1,
+      "dernier": 3630.0,
+      "variation": -0.27,
       "ouverture": 3645.0,
-      "haut": 3600.0,
-      "bas": 3600.0,
-      "volume": 1526,
+      "haut": 3630.0,
+      "bas": 3630.0,
+      "volume": 1579,
       "veille": 3640.0,
-      "date_maj": "2026-06-25T13:50:29.465654"
+      "date_maj": "2026-06-25T16:22:19.435592"
     },
     {
       "symbole": "STBC",
       "nom": "SITAB COTE D'IVOIRE",
-      "dernier": 22300.0,
-      "variation": 0.0,
+      "dernier": 22310.0,
+      "variation": 0.04,
       "ouverture": 22300.0,
-      "haut": 22300.0,
-      "bas": 22300.0,
-      "volume": 325,
+      "haut": 22310.0,
+      "bas": 22310.0,
+      "volume": 352,
       "veille": 22300.0,
-      "date_maj": "2026-06-25T13:50:29.465741"
+      "date_maj": "2026-06-25T16:22:19.435651"
     },
     {
       "symbole": "TTLC",
       "nom": "TOTALENERGIES MARKETING COTE D'IVOIRE",
-      "dernier": 2775.0,
-      "variation": 0.0,
+      "dernier": 2780.0,
+      "variation": 0.18,
       "ouverture": 2855.0,
-      "haut": 2775.0,
-      "bas": 2775.0,
-      "volume": 5796,
+      "haut": 2780.0,
+      "bas": 2780.0,
+      "volume": 6066,
       "veille": 2775.0,
-      "date_maj": "2026-06-25T13:50:29.465904"
+      "date_maj": "2026-06-25T16:22:19.435781"
     },
     {
       "symbole": "TTLS",
@@ -545,9 +545,9 @@
       "ouverture": 3450.0,
       "haut": 3455.0,
       "bas": 3455.0,
-      "volume": 1683,
+      "volume": 1705,
       "veille": 3450.0,
-      "date_maj": "2026-06-25T13:50:29.466062"
+      "date_maj": "2026-06-25T16:22:19.435883"
     },
     {
       "symbole": "UNLC",
@@ -559,19 +559,19 @@
       "bas": 57000.0,
       "volume": 0,
       "veille": 57000.0,
-      "date_maj": "2026-06-25T13:50:29.466220"
+      "date_maj": "2026-06-25T16:22:19.435950"
     },
     {
       "symbole": "UNXC",
       "nom": "UNIWAX COTE D'IVOIRE",
-      "dernier": 1975.0,
-      "variation": 0.51,
+      "dernier": 1980.0,
+      "variation": 0.76,
       "ouverture": 1965.0,
-      "haut": 1975.0,
-      "bas": 1975.0,
-      "volume": 5941,
+      "haut": 1980.0,
+      "bas": 1980.0,
+      "volume": 7959,
       "veille": 1965.0,
-      "date_maj": "2026-06-25T13:50:29.466317"
+      "date_maj": "2026-06-25T16:22:19.436009"
     }
   ]
 }
